@@ -1,0 +1,119 @@
+*{
+margin: 0px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+    /* navbar*/
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: pink;
+    border-style: dashed;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+
+}
+.nav-header{
+    display: inline;
+}
+.nav-title{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 10px;
+}
+.nav-links{
+    display: inline;
+    float: right;
+    font-size: 22px;
+   
+}
+.nav-links > a {
+    display: inline-block;
+    padding: 13px;
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.contact-title{
+    display: inline;
+    align-content: center;
+    font-size: 15px;
+}
+
+    /* Headline */
+    .headline{
+        width: 100%;
+        height: 200px;
+        min-width: 200px;
+        background-size: cover; /*anpassa bild till sektion*/
+        background-image: linear-gradient(
+            to bottom,
+            rgb(255, 157, 188),
+            rgb(255, 198, 169)
+            );
+    }
+
+    .headline h1, .headline p {
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-size: xx-large;
+    }
+
+    .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;  
+
+    }
+
+    .card{
+        width: 250px;
+        background-color: rgb(228, 124, 152);
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 5px 10px 10px rgb(255, 195, 213);
+    }
+
+    .image{
+        background-color: pink;
+        height: 200px;
+        background-size: cover;
+        border-style: dashed;
+    }
+
+    .card-1{
+        background-image: (C:\Users\matil\OneDrive\Desktop\bootcamp\492b245846c0fd16a502b4776379af9a.jpg)
+    }
+
+    .content{
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .content h3{
+        text-align: center;
+    }
+
+    .btn{
+        background-color: whitesmoke;
+        border: 3px;
+        border-radius: 10px;
+        color: black;
+        margin-top: 10px;
+        padding: 10px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .btn:hover{
+        background-color: rgb(255, 217, 241);
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
